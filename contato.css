@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Nunito+Sans:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,100;1,300&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+/* header */
+.navbar {
+    height: 90px;
+    background-color: white;
+
+}
+
+.navbar img {
+    margin-left: 15px;
+    height: 75px;
+}
+
+.navegation {
+    display: inline-flex;
+    position: absolute;
+    left: 40%;
+}
+
+.navegation li {
+    margin: 0px 10px 0px 10px;
+}
+
+.navegation a {
+    font-family: 'Lilita One', cursive;
+    font-size: 20px;
+    position: relative;
+    text-decoration: none;
+    color: #2a2a46;
+}
+
+.navegation a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2.5px;
+    bottom: 0;
+    left: 0;
+    background-color: purple;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.navegation a:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+/* banner */
+.photo {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.618), #00000080), url(img/Unschooling\ Homeschool\ Style_\ What\ is\ it_.jpeg);
+    text-align: center;
+    background-position: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+}
+.photo span {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 50px;
+    color: white;
+}
+
+/* Formulario */
+
+.containerForm {
+    display: flex;
+    color: rgba(255, 255, 255, 0.753);
+    font-size: large;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.formulario{
+    display: flex;
+    margin-left: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    
+}
+
+.formName-control {    
+    margin: 5px ;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.753);
+    background-clip: padding-box; 
+    margin-inline: initial;
+    
+}
+
+.formEmail-control {    
+    width: 110%;
+    margin: 5px;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.753);
+    background-clip: padding-box;
+    margin-inline: initial;
+}
+
+.formPhone-control {    
+    width:  65%;
+    margin: 5px;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.753);
+    background-clip: padding-box;
+    margin-inline: initial;
+
+}
+
+div.col.junto {
+    margin-left: 50px;
+}
+
+.junto {
+    display: flex;
+}
+
+div.col {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    font-size: bolder;
+}
+
+button.btn-lg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    background-color: #282828;
+    border-radius: .4vh;
+    padding: 10px;
+    color: white;
+    margin-left: 170px;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    transition: .5s;
+
+}
+
+.borda{
+    display: flex;
+    margin-top: 50px;
+    background-color: #1E1E1E;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+input {
+    background: #282828;
+    border: none;
+    border-radius: .5vh;
+}
+
+textarea.form-control,textarea.form-control:active,textarea.form-control:focus{
+    background-color: #282828;
+    border: none;
+    color: rgba(255, 255, 255, 0.753);
+} 
+
+button.btn-lg:hover {
+    background-color: #00ff088e;
+}
+
+/* footer */
+
+.footerNav a {
+    text-decoration: none;
+    color: white;
+}
+
+.footerNav a:hover{
+    color: rgb(89, 222, 89);
+}
+
+.icon:hover{
+    color: rgb(89, 222, 89);
+}
+
+.icon{
+    margin-right: 10px;
+}
+
+
+
+.SectionContact{
+    color: white;
+    font-size: 16px;
+}
+
+.SectionContact p{
+    inline-size: 850px;
+}
+
+.ContactBar a{
+    text-decoration: none;
+    color: white;
+}

@@ -57,102 +57,17 @@ body {
     transform: scaleX(1);
 }
 
-/* banner */
-.banner {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.618), #00000080), url(img/Snapinsta.app_329635112_561381602614595_2242043528685174268_n_1080.jpg);
-    text-align: center;
-    background-position: 100%;
+/*mensagem de obrigado */
+.obrigado {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-items: center;
     align-items: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 550px;
-}
-
-.banner span {
-    font-family: 'Nunito Sans', sans-serif;
-    color: white;
-
-}
-
-.textTitle {
-    font-size: 50px;
-}
-
-.textSubTitle {
-    font-size: 40px;
-}
-
-.text {
-    font-size: 25px;
-}
-
-.banner .container .textTitle {
-    font-size: 50px;
-    line-height: 60px;
-}
-
-.banner .container .textSubTitle {
-    font-size: 40px;
-}
-
-.banner .container .text {
-    font-size: 25px;
-}
-
-
-
-.btnBanner  {
-    border: none;
-    color: white;
-    text-shadow: 1px 1px 1px #000;
-    border-radius: 20px;
-    height: 40px;
-    width: 200px;
-    background-color: rgb(89, 222, 89);
-    box-shadow: 3px 3px 0 0 rgb(30, 73, 30);
-}
-
-.btnBanner:hover {
-    background-color: rgb(63, 158, 63);
-}
-
-/* toys container */
-
-.toyscontainer {
     text-align: center;
-
-}
-
-.toyscontainer .text h1 {
-    color: purple;
-    margin: 80px 0px 65px 0px;
-}
-
-.toyscontainer .text p {
+    font-family: 'Lilita One', cursive;
     position: relative;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    max-width: 700px;
-    font-size: 20px;
-}
-
-/* card */
-
-.card{
-    padding: 0;
-    
-    
-}
-
-.card-body a{
-    text-decoration: none;
-}
-
-.card-title{
-    color: black !important;
+    transform: translateY(350%);
+    top: 0;
+    margin-left: 20%;
 }
 
 /* footer */
